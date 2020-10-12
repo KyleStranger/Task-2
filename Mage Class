@@ -1,0 +1,25 @@
+    class Mage : Enemy
+    {
+        public Mage(int tempHP, int tempmaxHP, int tempDamage, Tile[] tempVision, int tempx, int tempy) : base(tempHP, tempmaxHP, tempDamage, tempVision, tempx, tempy) { }
+
+        public int MageHP(int mageHP)
+        {
+            mageHP = 5;
+
+            return mageHP;
+        }
+
+        public int MageDamage(int mageDmg)
+        {
+            mageDmg = 5;
+
+            return mageDmg;
+        }
+
+        public int ReturnMove(int posy , int posx)
+        {
+            posx = 0;
+            posy = 0;
+
+            return 0;
+        }
