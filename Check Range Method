@@ -1,0 +1,23 @@
+ public bool CheckRange(int enemyPosX , int enemyPosY , int MagePos)
+        {
+            if((enemyPosX == MagePos + 1) && (enemyPosY == MagePos + 1) && (enemyPosX == MagePos) && (enemyPosY == MagePos))
+            {
+                return true;
+            }
+            else if ((enemyPosX == MagePos - 1) && (enemyPosY == MagePos - 1) && (enemyPosX == MagePos) && (enemyPosY == MagePos))
+            {
+                return true;
+            }
+            else if ((enemyPosX == MagePos + 1) && (enemyPosY == MagePos - 1) && (enemyPosX == MagePos) && (enemyPosY == MagePos))
+            {
+                return true;
+            }
+            else if ((enemyPosX == MagePos - 1) && (enemyPosY == MagePos + 1) && (enemyPosX == MagePos) && (enemyPosY == MagePos))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
