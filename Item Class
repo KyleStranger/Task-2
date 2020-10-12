@@ -1,0 +1,17 @@
+namespace KyleStranger.GADE6111.Task1
+{
+    class Item : Tile
+    {
+        public Item(int x, int y) : base(x, y) { }
+
+        public override string ToString()
+        {
+
+            string itemType = " ";
+
+            return itemType;
+        }
+
+        
+    }
+}
